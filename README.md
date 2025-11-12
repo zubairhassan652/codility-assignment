@@ -19,3 +19,13 @@ pip install -r requirements.txt
 ```
 python manage.py runserver 0.0.0.0:8000
 ```
+
+### 5. Visit
+```
+http://localhost:8000/api/jobs/
+
+http://localhost:8000/api/jobs/<id>/
+
+http://localhost:8000/api/import-csv/
+
+http://localhost:8000/api/scrape-jobs/
